@@ -1,4 +1,5 @@
 console.log('Hello World');
+//making printinfo function with setting the parameter types
 function printinfo(name, age, designation) {
     return {
         name: name,
@@ -7,3 +8,4 @@ function printinfo(name, age, designation) {
     };
 }
 console.log(printinfo('sachin', 24, 'developer'));
+//now we can use this info type
