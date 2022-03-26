@@ -27,5 +27,18 @@ type info = {
 
 //now we can use this info type
 
+// Example : make a list of employees and add info of new employees to the list
+
+let employees = [];
+
+function add_employee(info:info):object{
+    return {
+        name:info.name,
+        age:info.age,
+        designation:info.designation
+    }
+}
+
+
 
 
