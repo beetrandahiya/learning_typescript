@@ -29,15 +29,18 @@ type info = {
 
 // Example : make a list of employees and add info of new employees to the list
 
-let employees = [];
-
+let employees: info[] ;
+employees = [];
 function add_employee(info:info):object{
+    employees.push(info);
     return {
         name:info.name,
         age:info.age,
         designation:info.designation
     }
 }
+
+add_employee({name:'sachin',age:24,designation:'developer'});
 
 
 
