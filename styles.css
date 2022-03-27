@@ -4,4 +4,46 @@ body{
     font-family: 'Poppins', sans-serif;
     color: #333;
     background-color: #fff;
+    padding:0;
+}
+*{
+    margin:0;
+    padding:0;
+}
+.main-head{
+    background-color: #3178c6;
+    margin: 0 auto;
+    padding: 100px 0px;
+    text-align: center;
+    font-size: 20px;
+    
+    color: #fff;
+    width: 100%;
+}
+.main-head h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.main-head p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.what{
+    background-color: #fff;
+    padding: 100px 0px;
+    text-align: center;
+    font-size: 20px;
+    color: #3178c6;
+    width: 100%;
+}
+.concerns{
+    background-color: #3178c6;
+    padding: 100px 0px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    width: 100%;
 }
