@@ -66,3 +66,49 @@ margin:auto;
     width: 80%;
     font-weight: 600;
 }
+.importantwhite{
+    background-color: #fff;
+    text-align: center;
+    font-size: 24px;
+    margin:auto;
+    color: #3178c6;
+    width: 80%;
+    font-weight: 600;
+}
+.concerns2{
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    padding:0px;
+    flex-direction: row;
+    font-size: 24px;
+}
+.concerns2 h1{
+    font-size: 74px;
+    font-weight: 600;
+    margin:auto;
+    padding:0px;
+}
+.pros{
+    background-color: #3178c6;
+    font-size: 24px;
+    color: #fff;
+    width: 50%;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+.concerns2 li{
+    margin-bottom: 20px;
+}
+.cons{
+    background-color: #fff;
+    font-size: 24px;
+    color: #3178c6;
+    width: 50%;
+    padding: 100px 0px;
+    text-align: center;
+}
